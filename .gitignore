@@ -1,0 +1,13 @@
+._*
+*.*~
+*.pid
+.DS_Store
+schema.rb
+config/database.yml
+*.log
+public/uploads/*
+*.sqlite3
+config/initializers/paperclip.rb
+tmp/*
+coverage/
+
