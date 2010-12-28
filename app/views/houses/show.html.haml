@@ -1,0 +1,21 @@
+- title "House"
+
+%p
+  %strong Name:
+  = @house.name
+%p
+  %strong Street:
+  = @house.street
+%p
+  %strong City:
+  = @house.city
+%p
+  %strong Tel:
+  = @house.tel
+
+%p
+  = link_to "Edit", edit_house_path(@house)
+  |
+  = link_to "Destroy", @house, :confirm => 'Are you sure?', :method => :delete
+  |
+  = link_to "View All", houses_path

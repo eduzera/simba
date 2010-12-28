@@ -1,0 +1,35 @@
+/** GRID
+ ************************************************** */
+#gridShowHide {display:none;position:absolute;z-index:1;width:980px;height:5000px;background:url(../images/grid.png) left top}
+#btn-showHideGrid {position:absolute;top:10;right:10px}
+
+body{ font-family:Helvetica, Arial, Verdana, Sans-Serif;font-size:12px;line-height:16px; background-color: #1d282e; color: #FFFFFF;}
+
+/*HEADER*/
+.header_highlight{ background-color: #0c1012; }
+.header_highlight h1{ color: #b7b8b8; font-size: small; }
+.header_highlight .group_image{ position: relative; width: 100%; }
+.header_highlight .group_image h2{ position: absolute; top: 6px; right: 0; width: 100%; left: 136px; }
+.header_highlight .group_image h2 span{ background-color: #0c1012; padding: 2px 3px;}
+.header_highlight .group_image h1{ position: absolute; top: 100px; right: 0; width: 100%; }
+.header_highlight .group_image h1 span{ background-color: #0c1012; padding: 2px 12px;}
+
+/*PROXIMOS PAGODES*/
+.show_pagode{ background-color: #0c1012; color: #FFFFFF; }
+.show_pagode h3{ color: #7da4b3;}
+.show_pagode h2{ color: #FFFFFF;}
+.show_pagode h1{ color: #7da4b3;}
+.show_pagode img{ border: 1px solid #b7b8b8; }
+
+/*CASAS SHOWS*/
+.show_house{ background-color: #0c1012; color: #7da4b3; }
+.show_house img{ width: 184px; }
+.show_house h1{ color: #FFFFFF; }
+.show_house h2{ color: #7da4b3; }
+
+/*GERAL*/
+.overflow{ overflow: hidden; }
+.acenter{ text-align: center; }
+.rcenter{ text-align: right; }
+.bold,.active {font-weight:bold }
+h1,h2,h3,h4,h5,h6{ font-weight: normal; }

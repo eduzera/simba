@@ -1,0 +1,12 @@
+- form_for @group do |f|
+  = f.error_messages
+  %p
+    = f.label :name
+    %br
+    = f.text_field :name
+  %p
+    = f.label :polarity
+    %br
+    = f.text_field :polarity
+  %p
+    = f.submit

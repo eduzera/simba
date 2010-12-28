@@ -1,0 +1,11 @@
+one:
+  name: MyString
+  street: MyString
+  city: MyString
+  tel: MyString
+
+two:
+  name: MyString
+  street: MyString
+  city: MyString
+  tel: MyString

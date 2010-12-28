@@ -1,0 +1,19 @@
+!!!
+%html
+	%head
+		%title= content_for?(:title) ? yield(:title) : "PagodeSP.com.br | O melhor do pagode de São Paulo"
+		= stylesheet_link_tag 'reset','grid', "application" #,'swfupload', :cache => true
+		= javascript_include_tag :defaults#, 'swfupload/swfupload.js','swfupload/handlers.js',"tiny_mce/jquery.tinymce.js", :cache => true
+		= csrf_meta_tag
+		= yield(:head)
+	%body
+		
+		=render :partial => "layouts/grid_on_off"
+		
+		.container_20
+		
+			#gridShowHide
+			
+			=render :partial => "layouts/topo"
+		
+			= yield

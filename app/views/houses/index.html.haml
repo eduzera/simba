@@ -1,0 +1,19 @@
+- title "Houses"
+
+%table
+  %tr
+    %th Name
+    %th Street
+    %th City
+    %th Tel
+  - for house in @houses
+    %tr
+      %td= house.name
+      %td= house.street
+      %td= house.city
+      %td= house.tel
+      %td= link_to 'Show', house
+      %td= link_to 'Edit', edit_house_path(house)
+      %td= link_to 'Destroy', house, :confirm => 'Are you sure?', :method => :delete
+
+%p= link_to "New House", new_house_path
